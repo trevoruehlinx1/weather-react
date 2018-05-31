@@ -13,6 +13,7 @@ class WeatherList extends Component{
                     key={day.dt}
                     day={day}
                     index={index} 
+                    onDayClick={this.props.onDayClick}
                 />)}
             </div>
         );
